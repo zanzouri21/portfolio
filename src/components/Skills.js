@@ -9,7 +9,7 @@ const skillGroups = [
   },
   {
     icon: <FiLayers />, title: 'Frontend & Frameworks',
-    skills: ['ReactJS', 'Redux', 'Next.js', 'Bootstrap', 'Axios']
+    skills: ['ReactJS', 'Redux', 'Next.js', 'Bootstrap', 'Axios', 'Vue.js']
   },
   {
     icon: <FiDatabase />, title: 'Backend & DB',

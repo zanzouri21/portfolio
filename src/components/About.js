@@ -1,10 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiMapPin, FiBriefcase, FiCode, FiShield } from 'react-icons/fi';
+import { FiMapPin, FiBriefcase, FiShield } from 'react-icons/fi';
 
 const stats = [
   { icon: <FiBriefcase />, value: '1+', label: 'Year Experience' },
-  { icon: <FiCode />, value: '10+', label: 'Projects Built' },
   { icon: <FiShield />, value: '3+', label: 'Certifications' },
   { icon: <FiMapPin />, value: 'TN', label: 'Gabès, Tunisia' },
 ];
@@ -52,7 +51,7 @@ const About = () => (
             Hello! I'm <span style={{ color: '#e63946' }}>Ahmed</span> 
           </h3>
           <p style={{ color: '#a0a0b0', lineHeight: 1.9, marginBottom: '1rem' }}>
-            IT graduate from ISET Gabès with a degree in Network Security. Passionate about
+            IT graduated from ISET Gabès with a degree in Network Security. Passionate about
             web development, cybersecurity, and graphic design. I build modern web applications
             using the MERN stack while keeping security at the core of everything I do.
           </p>

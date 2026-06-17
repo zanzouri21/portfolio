@@ -82,7 +82,7 @@ const Hero = () => {
           style={{ color: '#a0a0b0', maxWidth: 560, margin: '0 auto 2.5rem',
             fontSize: '1.05rem', lineHeight: 1.8 }}
         >
-            Fresh graduate in Network Security from ISET Gabès, with hands-on knowledge in web development, graphic design, computer networks and cybersecurity — built through
+            graduated in Network Security from ISET Gabès, with hands-on knowledge in web development, graphic design, computer networks and cybersecurity — built through
   certifications and academic projects.
         </motion.p>
 
@@ -104,7 +104,7 @@ const Hero = () => {
               View My Work ↓
             </button>
           </Link>
-          <a href="/CV ahmed.pdf" download="CV_Ahmed_Zanzouri.pdf">
+          <a href="/CV_Ahmed_Zanzouri.pdf" download="CV_Ahmed_Zanzouri.pdf">
             <button style={{
               background: 'transparent',
               border: '1.5px solid rgba(255,255,255,0.2)',
