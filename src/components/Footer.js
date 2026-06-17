@@ -43,19 +43,7 @@ const Footer = () => (
           <FiGithub />
         </div>
       </a>
-      <a href="#" target="_blank" rel="noreferrer">
-        <div style={{
-          width: 38, height: 38, borderRadius: 10,
-          background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          color: '#606070', fontSize: '1.1rem', cursor: 'pointer', transition: 'all 0.3s'
-        }}
-          onMouseEnter={e => { e.currentTarget.style.color = '#e63946'; e.currentTarget.style.borderColor = 'rgba(230,57,70,0.3)'; }}
-          onMouseLeave={e => { e.currentTarget.style.color = '#606070'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)'; }}
-        >
-          
-        </div>
-      </a>
+     
     </div>
 
     <p style={{ color: '#404050', fontSize: '0.85rem' }}>

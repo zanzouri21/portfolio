@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
+import { FiSun, FiMoon} from 'react-icons/fi';
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   const [scrolled, setScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);

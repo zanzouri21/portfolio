@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiMail, FiMapPin, FiPhone, FiSend } from 'react-icons/fi';
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
