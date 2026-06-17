@@ -67,7 +67,6 @@ const Contact = () => {
             <div style={{ display: 'flex', gap: '1rem', marginTop: '2rem' }}>
               {[
                 { icon: <FiGithub />, href: 'https://github.com/zanzouri21?tab=repositories', label: 'GitHub' },
-                { icon: <FiLinkedin />, href: '#', label: 'LinkedIn' },
               ].map((s, i) => (
                 <a key={i} href={s.href} target="_blank" rel="noreferrer">
                   <div style={{

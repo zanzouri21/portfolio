@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
 
 const Footer = () => (
   <footer style={{
@@ -53,7 +53,7 @@ const Footer = () => (
           onMouseEnter={e => { e.currentTarget.style.color = '#e63946'; e.currentTarget.style.borderColor = 'rgba(230,57,70,0.3)'; }}
           onMouseLeave={e => { e.currentTarget.style.color = '#606070'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)'; }}
         >
-          <FiLinkedin />
+          
         </div>
       </a>
     </div>
